@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="354.35" tests="8" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/test-classes:/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/classes:/Users/love.vashista/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/Users/love.vashista/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/love.vashista/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar:/Users/love.vashista/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:/Users/love.vashista/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/love.vashista/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/love.vashista/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/love.vashista/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/love.vashista/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/love.vashista/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/love.vashista/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/love.vashista/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/love.vashista/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/love.vashista/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/love.vashista/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/love.vashista/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/love.vashista/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/love.vashista/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/love.vashista/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/love.vashista/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/love.vashista/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/love.vashista/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/love.vashista/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/love.vashista/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/love.vashista/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/love.vashista/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/love.vashista/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/love.vashista/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/love.vashista/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/love.vashista/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/love.vashista/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/love.vashista/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/love.vashista/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/love.vashista/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/love.vashista/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/love.vashista/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/love.vashista/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/love.vashista/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/love.vashista/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/surefire/surefirebooter3346134261110707642.jar /Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/surefire 2019-01-23T01-19-53_209-jvmRun1 surefire6662673197324392904tmp surefire_08026679718359975115tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/test-classes:/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/classes:/Users/love.vashista/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/Users/love.vashista/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/love.vashista/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar:/Users/love.vashista/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:/Users/love.vashista/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/love.vashista/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/love.vashista/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/love.vashista/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/love.vashista/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/love.vashista/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/love.vashista/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/love.vashista/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/love.vashista/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/love.vashista/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/love.vashista/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/love.vashista/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/love.vashista/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/love.vashista/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/love.vashista/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/love.vashista/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/love.vashista/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/love.vashista/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/love.vashista/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/love.vashista/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/love.vashista/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/love.vashista/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/love.vashista/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/love.vashista/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/love.vashista/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/love.vashista/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/love.vashista/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/love.vashista/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/love.vashista/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/love.vashista/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/love.vashista/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/love.vashista/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/love.vashista/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/love.vashista/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/love.vashista/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/love.vashista/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/love.vashista/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/love.vashista/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/love.vashista"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/target/surefire/surefirebooter3346134261110707642.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="love.vashista"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/love.vashista/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/fy/9mgc8zd54291zrtxrdgwqxh5vs6jxj/T/"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/love.vashista/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="/Users/love.vashista/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="app_validateIntroTitle" classname="MobileProgrammingLLC.Tests.WebViewTest_App_ValidatingAboutSection" time="1.251"/>
+  <testcase name="app_tapOnNavigationMenuBtn" classname="MobileProgrammingLLC.Tests.WebViewTest_App_ValidatingAboutSection" time="2.894"/>
+  <testcase name="app_tapOnAboutOption" classname="MobileProgrammingLLC.Tests.WebViewTest_App_ValidatingAboutSection" time="2.502"/>
+  <testcase name="app_verifyAboutPage" classname="MobileProgrammingLLC.Tests.WebViewTest_App_ValidatingAboutSection" time="2.54"/>
+  <testcase name="app_validateIntroTitle" classname="MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection" time="1.218"/>
+  <testcase name="app_handlingConfirmPopUps" classname="MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection" time="14.208"/>
+  <testcase name="app_navigatingToWebSite" classname="MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection" time="177.13">
+    <failure message="Can&apos;t locate an element by this strategy: By.xpath: //a[@id=&apos;header-logo&apos;]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //a[@id='header-logo']
+	at MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection.app_navigatingToWebSite(WebViewTest_Web_ValidatingHomePageRedirection.java:60)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3f9b7fe1 (tried for 1 second(s) with 500 milliseconds interval)
+	at MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection.app_navigatingToWebSite(WebViewTest_Web_ValidatingHomePageRedirection.java:60)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='header-logo']"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MAC09F.local', ip: 'fe80:0:0:0:cc9:29f5:eeb8:b441%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/love.vashista/Docume..., appActivity: com.snc.test.webview.activi..., appPackage: com.snc.test.webview2, appWaitActivity: com.snc.test.webview.activi..., appWaitPackage: com.snc.test.webview2, databaseEnabled: false, desired: {app: /Users/love.vashista/Docume..., deviceName: LoveEmulator, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+*** Element info: {Using=xpath, value=//a[@id='header-logo']}
+	at MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection.app_navigatingToWebSite(WebViewTest_Web_ValidatingHomePageRedirection.java:60)
+</failure>
+    <system-out><![CDATA[&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/WebView Test_v1.0.21.apk","deviceName":"LoveEmulator"},"platformName":"android","app":"/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/WebView Test_v1.0.21.apk","deviceName":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.snc.test.webview2","appWaitPackage":"com.snc.test.webview2","appActivity":"com.snc.test.webview.activity.MainActivity","appWaitActivity":"com.snc.test.webview.activity.MainActivity"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3 ms - 924&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.snc.test.webview2:id/input_url"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","com.snc.test.webview2:id/input_url","a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 20000 ms for condition
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.snc.test.webview2:id/input_url","context":"","multiple":false}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.snc.test.webview2:id/input_url","context":"","multiple":false}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Finding 'com.snc.test.webview2:id/input_url' using 'ID' with the contextId: '' multiple: false
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.snc.test.webview2:id/input_url]
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Received command result from bootstrap
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m564 ms - 53&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element/6/value&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"6","text":"www.yahoo.com","value":["w","w","w",".","y","a","h","o","o",".","c","o","m"]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.setValue() with args: [["w","w","w",".","y","a","h","o","o",".","c","o","m"],"6","a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"www.yahoo.com","replace":false}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"www.yahoo.com","replace":false}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command action: setText
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Using element passed in: 6
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Sending plain text to element: www.yahoo.com
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Received command result from bootstrap
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.setValue() result: true
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element/6/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m13787 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/WebView Test_v1.0.21.apk","deviceName":"LoveEmulator"},"platformName":"android","app":"/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_AndroidHybridAppFrame/WebView Test_v1.0.21.apk","deviceName":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","appPackage":"com.snc.test.webview2","appWaitPackage":"com.snc.test.webview2","appActivity":"com.snc.test.webview.activity.MainActivity","appWaitActivity":"com.snc.test.webview.activity.MainActivity"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m5 ms - 924&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.Button[@text='MOVE']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.Button[@text='MOVE']","a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 20000 ms for condition
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='MOVE']","context":"","multiple":false}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='MOVE']","context":"","multiple":false}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Finding '//android.widget.Button[@text='MOVE']' using 'XPATH' with the contextId: '' multiple: false
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Received command result from bootstrap
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m321 ms - 53&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/touch/perform&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"actions":[{"action":"tap","options":{"element":"7"}}]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"7"}}],"a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Sending command to android: {"cmd":"action","action":"element:getLocation","params":{"elementId":"7"}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"7"}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":808,"y":703}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Received command result from bootstrap
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Sending command to android: {"cmd":"action","action":"element:getSize","params":{"elementId":"7"}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"7"}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command action: getSize
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":170,"height":126}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Received command result from bootstrap
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"7","x":893,"y":766}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7","x":893,"y":766}}
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m Received command result from bootstrap
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.performTouch() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/touch/perform &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3314 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[35m[AndroidBootstrap]&amp#27;[39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/contexts&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.getContexts() with args: ["a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Getting a list of available webviews
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/love.vashista/Library/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m WEBVIEW_1458 mapped to pid 1458
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Getting process name for webview
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/love.vashista/Library/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Parsed pid: '1458' pkg: 'com.snc.test.webview2' from
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m     USER           PID  PPID     VSZ    RSS WCHAN            ADDR S NAME
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m     u0_a86        1458  1484 1583016 186180 futex_wait_queue_me 0 S com.snc.test.webview2
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Returning process name: 'com.snc.test.webview2'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Found webviews: ["WEBVIEW_com.snc.test.webview2"]
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Available contexts: ["NATIVE_APP","WEBVIEW_com.snc.test.webview2"]
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.getContexts() result: ["NATIVE_APP","WEBVIEW_com.snc.test.webview2"]
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/contexts &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m316 ms - 56&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"name":"WEBVIEW_com.snc.test.webview2"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.setContext() with args: ["WEBVIEW_com.snc.test.webview2","a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Getting a list of available webviews
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/love.vashista/Library/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m WEBVIEW_1458 mapped to pid 1458
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Getting process name for webview
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/love.vashista/Library/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Parsed pid: '1458' pkg: 'com.snc.test.webview2' from
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m     USER           PID  PPID     VSZ    RSS WCHAN            ADDR S NAME
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m     u0_a86        1458  1484 1588136 191096 futex_wait_queue_me 0 S com.snc.test.webview2
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Returning process name: 'com.snc.test.webview2'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Found webviews: ["WEBVIEW_com.snc.test.webview2"]
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Available contexts: ["NATIVE_APP","WEBVIEW_com.snc.test.webview2"]
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Connecting to chrome-backed webview context 'WEBVIEW_com.snc.test.webview2'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m A port was not given, using random port: 8000
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Changed state to 'starting'
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Found 1 executable in '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac'
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m The following Chromedriver executables were found:
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m     /usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac/chromedriver (minimum Chrome version '69.0.3497')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'com.android.chrome'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/love.vashista/Library/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.android.chrome'
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Found Chrome bundle 'com.android.chrome' version '71.0.3578'
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Found 1 Chromedriver executable capable of automating Chrome '71.0.3578'.
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Choosing the most recent, '/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac/chromedriver'.
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m If a specific version is required, specify it with the `chromedriverExecutable`desired capability.
+&amp#27;[35m[Chromedriver]&amp#27;[39m Set chromedriver binary as: /usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac/chromedriver
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Killing any old chromedrivers, running: pkill -15 -f "/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac/chromedriver.*--port=8000"
+&amp#27;[35m[Chromedriver]&amp#27;[39m No old chromedrivers seemed to exist
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Cleaning any old adb forwarded port socket connections
+[debug] &amp#27;[35m[ADB]&amp#27;[39m List forwarding ports
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/love.vashista/Library/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --list'
+&amp#27;[35m[Chromedriver]&amp#27;[39m Spawning chromedriver with: /usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac/chromedriver --url-base=wd/hub --port=8000 --adb-port=5037 --verbose
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Chromedriver version: '2.44.609545'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8000/wd/hub/status] with no body
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"alpha\"},\"os\":{\"arch\":\"x86_64\",\"name\":\"Mac OS X\",\"version\":\"10.13.6\"}}}"
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8000/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.snc.test.webview2","androidUseRunningApp":true,"androidDeviceSerial":"emulator-5554"}}}
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Webview version: 'Chrome/71.0.3578.99'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:59978"},"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","rotatable":false,"setWindowRect":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"ignore","version":"71.0.3578.99","webStorageEnabled":true}}
+[debug] &amp#27;[35m[Chromedriver]&amp#27;[39m Changed state to 'online'
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.setContext() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m5994 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.getCurrentContext() with args: ["a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.getCurrentContext() result: "WEBVIEW_com.snc.test.webview2"
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 41&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m305 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m55 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m62 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m30 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m37 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m37 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m49 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m267 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m265 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m117 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m133 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m36 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m384 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m248 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m57 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m38 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m52 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m35 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m34 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m35 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m22 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m27 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m38 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m436 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1385 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m260 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m84 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m44 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m43 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m35 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m44 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m34 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m57 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m25 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m29 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m30 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m26 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m39 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m23 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m33 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m58 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m41 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m35 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m40 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m34 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m54 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m26 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m53 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m41 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements' to command name 'findElements'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/elements] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":0,"value":[]}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m26 ms - 74&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e' to command name 'getSession'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e] to [GET http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7] with body: {}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: "{\"sessionId\":\"85fc8d469b3cca55d9a15f8a276065b7\",\"status\":0,\"value\":{\"acceptInsecureCerts\":false,\"acceptSslCerts\":false,\"applicationCacheEnabled\":false,\"browserConnectionEnabled\":false,\"browserName\":\"chrome\",\"chrome\":{\"chromedriverVersion\":\"2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5)\"},\"cssSelectorsEnabled\":true,\"databaseEnabled\":false,\"goog:chromeOptions\":{\"debuggerAddress\":\"localhost:59978\"},\"handlesAlerts\":true,\"hasTouchScreen\":true,\"javascriptEnabled\":true,\"locationContextEnabled\":true,\"mobileEmulationEnabled\":false,\"nativeEvents\":true,\"pageLoadStrategy\":\"normal\",\"platform\":\"ANDROID\",\"rotatable\":false,\"setWindowRect\":false,\"takesHeapSnapshot\":true,\"takesScreenshot\":true,\"unexpectedAlertBehaviour\":\"ignore\",\"version\":\"71.0.3578.99\",\"webStorageEnabled\":true}}"
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 85fc8d469b3cca55d9a15f8a276065b7 with a1f37e69-eff3-43ff-a193-4fd903ff1a0e
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m6 ms - 784&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.getCurrentContext() with args: ["a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.getCurrentContext() result: "WEBVIEW_com.snc.test.webview2"
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3 ms - 41&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Calling AppiumDriver.getCurrentContext() with args: ["a1f37e69-eff3-43ff-a193-4fd903ff1a0e"]
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Responding to client with driver.getCurrentContext() result: "WEBVIEW_com.snc.test.webview2"
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 41&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element' to command name 'findElement'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/element] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id='header-logo']\"}\n  (Session info: chrome=71.0.3578.99)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64)"}}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got an unexpected response: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id='header-logo']\"}\n  (Session info: chrome=71.0.3578.99)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465e...
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: The request to /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element has failed
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m     at JWProxy.proxy (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:180:13)
+[debug] &amp#27;[35m[MJSONWP]&amp#27;[39m Matched JSONWP error code 7 to NoSuchElementError
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m135 ms - 1008&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element' to command name 'findElement'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/element] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id='header-logo']\"}\n  (Session info: chrome=71.0.3578.99)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64)"}}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got an unexpected response: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id='header-logo']\"}\n  (Session info: chrome=71.0.3578.99)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465e...
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: The request to /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element has failed
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m     at JWProxy.proxy (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:180:13)
+[debug] &amp#27;[35m[MJSONWP]&amp#27;[39m Matched JSONWP error code 7 to NoSuchElementError
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m53 ms - 1008&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//a[@id='header-logo']"}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element' to command name 'findElement'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element] to [POST http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/element] with body: {"using":"xpath","value":"//a[@id='header-logo']"}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id='header-logo']\"}\n  (Session info: chrome=71.0.3578.99)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64)"}}
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got an unexpected response: {"sessionId":"85fc8d469b3cca55d9a15f8a276065b7","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@id='header-logo']\"}\n  (Session info: chrome=71.0.3578.99)\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465e...
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: The request to /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element has failed
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m     at JWProxy.proxy (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:180:13)
+[debug] &amp#27;[35m[MJSONWP]&amp#27;[39m Matched JSONWP error code 7 to NoSuchElementError
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m44 ms - 1008&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot' to command name 'getScreenshot'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot] to [GET http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/screenshot] with body: {}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: "{\"sessionId\":\"85fc8d469b3cca55d9a15f8a276065b7\",\"status\":21,\"value\":{\"message\":\"timeout: Timed out receiving message from renderer: 10.000\\n  (Session info: chrome=71.0.3578.99)\\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64)\"}}"
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: The request to /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot has failed
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m     at JWProxy.proxy (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:180:13)
+[debug] &amp#27;[35m[MJSONWP]&amp#27;[39m Matched JSONWP error code 21 to TimeoutError
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot &amp#27;[39m&amp#27;[33m408&amp#27;[39m &amp#27;[90m60053 ms - 900&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Matched '/wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot' to command name 'getScreenshot'
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Proxying [GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot] to [GET http://127.0.0.1:8000/wd/hub/session/85fc8d469b3cca55d9a15f8a276065b7/screenshot] with body: {}
+[debug] &amp#27;[35m[JSONWP Proxy]&amp#27;[39m Got response with status 200: "{\"sessionId\":\"85fc8d469b3cca55d9a15f8a276065b7\",\"status\":21,\"value\":{\"message\":\"timeout: Timed out receiving message from renderer: 10.000\\n  (Session info: chrome=71.0.3578.99)\\n  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.13.6 x86_64)\"}}"
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m Encountered internal error running command: ProxyRequestError: Could not proxy command to remote server. Original error: The request to /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot has failed
+[debug] &amp#27;[35m[W3C (a1f37e69)]&amp#27;[39m     at JWProxy.proxy (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:180:13)
+[debug] &amp#27;[35m[MJSONWP]&amp#27;[39m Matched JSONWP error code 21 to TimeoutError
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/a1f37e69-eff3-43ff-a193-4fd903ff1a0e/screenshot &amp#27;[39m&amp#27;[33m408&amp#27;[39m &amp#27;[90m60050 ms - 900&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="app_tapOnNavigationMenuBtn" classname="MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection" time="0">
+    <skipped message="Method WebViewTest_Web_ValidatingHomePageRedirection.app_tapOnNavigationMenuBtn()[pri:0, instance:MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection@1ab3a8c8] depends on not successfully finished methods"/>
+  </testcase>
+</testsuite>

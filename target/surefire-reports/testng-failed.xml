@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MobileProgrammingLLC.Tests.Listeners"/>
+    <listener class-name="MobileProgrammingLLC.Resources.ExtentReport"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="MobileProgrammingLLC.Tests.WebViewTest_App_ValidatingAboutSection">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initConfigs"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.WebViewTest_App_ValidatingAboutSection -->
+      <class name="MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection">
+        <methods>
+          <include name="app_handlingConfirmPopUps"/>
+          <include name="app_tapOnNavigationMenuBtn"/>
+          <include name="app_validateIntroTitle"/>
+          <include name="app_navigatingToWebSite"/>
+          <include name="initConfigs"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.WebViewTest_Web_ValidatingHomePageRedirection -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
